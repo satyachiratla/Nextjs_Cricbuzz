@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oleo+Script+Swash+Caps&family=Quicksand:wght@300&family=Roboto&family=Roboto+Mono:wght@100&display=swap');
+
+.matchDetail {
+    max-width: 80%;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background-color: white;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.header h1 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.header {
+    background-color: bisque;
+    height: 5rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.summary {
+    background-color: #46B2E0;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 0.6rem;
+}
+
+.summary h2 {
+    margin-left: 2rem;
+    font-family: 'Roboto monospace', sans-serif;
+    color: #6A1B4D;
+}
+
+.playerslist ul {
+    padding: 0;
+    margin: 0;
+}
+
+.playerslist {
+    height: 50vh;
+    overflow: scroll;
+    margin: 2rem;
+    border: 3px solid #6a1b4da5;
+    border-radius: 8px;
+}
+
+.playerslist h3 {
+    margin-left: 1rem;
+    color: #c02323df;
+    font-family: 'Lato', sans-serif;
+}
+
+.playerslist h3 span {
+    color: #6A1B4D;
+    margin-left: 4px;
+}
+
+.playerslist span {
+    color: #6A1B4D;
+}
+
+.description {
+    background-color: #383CC1;
+    margin: 2rem;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+.description p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 40rem) {
+    .matchDetail {
+        max-width: 100%;
+        margin-top: 0;
+    }
+
+    .summary h2 {
+        margin-left: 0;
+    }
+
+    .description {
+        margin: 0;
+        padding: 12px;
+    }
+
+    .description p {
+        margin: 0;
+    }
+
+    .playerslist {
+        margin: 1rem 0 0 0;
+    }
+
+    
+}

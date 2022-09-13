@@ -1,0 +1,44 @@
+.matchlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #06f6f6;
+    margin-top: 0.6rem;
+    border-radius: 8px;
+}
+
+.match {
+    background-color: #03203C;
+    width: 40%;
+    border-radius: 16px;
+    text-align: center;
+    height: 50vh;
+    overflow: scroll;
+}
+
+.match ul {
+    padding: 0;
+    margin: 0;
+}
+
+.match li {
+    list-style: none;
+}
+
+.match li h2 {
+    color: white;
+}
+
+@media (max-width: 40rem) {
+    .matchlist {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .match {
+        width: 100%;
+        margin-top: 1rem;
+    }
+}

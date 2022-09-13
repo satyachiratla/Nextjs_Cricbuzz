@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Quicksand:wght@300&family=Roboto&family=Roboto+Mono:wght@100&display=swap");
+
+.teamlist {
+  background-color: #50dbb4;
+  border-bottom: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 0 1rem;
+}
+
+.name p {
+  margin-top: -1.2rem;
+  font-size: small;
+}
+
+.runs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.runs span {
+  margin-left: 1rem;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #8a2b06;
+  border: 1px solid #8a2b06;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: -8px;
+  margin-left: 6px;
+}
+
+.board button:hover,
+.board button:active {
+  background-color: #641e03;
+  border-color: #641e03;
+}
+
+@media (max-width: 40rem) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 1px solid black;
+  }
+
+  .runs h4 {
+    margin: 1rem 0;
+  }
+
+  .name p {
+    margin-top: -1rem
+  }
+}

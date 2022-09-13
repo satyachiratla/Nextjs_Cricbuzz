@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Quicksand:wght@300&display=swap');
+
+.launchpage {
+    max-width: 80%;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background-color: white;
+    margin: auto;
+    margin-top: 6rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    color: aquamarine;
+    height: 5rem;
+    border-radius: 8px;
+}
+
+.matches {
+    margin-top: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #383CC1;
+    border-radius: 8px;
+    height: 5rem;
+}
+
+.matches a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: #5459e4;
+    padding: 6px 16px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+}
+
+.matches a:hover {
+    background-color: #5459e4c1;
+}
+
+@media (max-width: 40rem) {
+    .launchpage {
+        max-width: 100%;
+        margin-top: 0;
+    }
+}

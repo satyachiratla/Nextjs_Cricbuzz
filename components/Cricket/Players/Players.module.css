@@ -1,0 +1,15 @@
+.players {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
+
+.name {
+    margin: 0 0.5rem;
+}
+
+@media (max-width: 40rem) {
+    .name {
+        font-size: 1.2rem;
+    }
+}

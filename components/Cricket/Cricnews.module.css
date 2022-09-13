@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Quicksand:wght@300&family=Roboto&family=Roboto+Mono:wght@100&display=swap');
+
+.cricnews {
+    margin-top: 0.6rem;
+    background-color: #120e43;
+    height: fit-content;
+    padding: 4px 16px;
+    border-radius: 8px;
+}
+
+.cricnews h1 {
+    color: #0ec9f3;
+}
+
+.content {
+    margin: 1rem;
+}
+
+.content h3 {
+    color: #f65a0b;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.content ul {
+    margin: 0;
+    padding: 0;
+}
+
+.content p {
+    margin-top: -12px;
+    color: #7fffd4;
+    font-family: 'Roboto mono', monospace;
+}

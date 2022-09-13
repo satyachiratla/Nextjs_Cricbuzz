@@ -1,0 +1,13 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/api/hello": "pages/api/hello.js",
+  "/": "pages/index.html",
+  "/matches/asia/[matchid]": "pages/matches/asia/[matchid].js",
+  "/matches": "pages/matches.js",
+  "/matches/world/[matchid]": "pages/matches/world/[matchid].js",
+  "/players/[playerid]": "pages/players/[playerid].js",
+  "/players": "pages/players.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}

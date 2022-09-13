@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Quicksand:wght@300&family=Roboto&family=Roboto+Mono:wght@100&display=swap');
+
+.list {
+    padding: 1rem;
+    background-color: #00ffff3d;
+    border-bottom: 1px solid black;
+    border-radius: 8px;
+    margin: 1rem;
+}
+
+.list a {
+    text-decoration: none;
+    font-family: 'Roboto mono', monospace;
+    color: white;
+    background-color: #00ffff42;
+    padding: 3px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.list a:hover {
+    color: black;
+    background-color: #00ffffc3;
+}

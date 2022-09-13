@@ -1,0 +1,85 @@
+.playerdetails {
+    background-color: #00000047;
+    max-width: 80%;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    margin: auto;
+    margin-top: 6rem;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar h2 {
+    background-color: #6A1B4D;
+    border-radius: 1rem;
+    padding: 6px 12px;
+    color: white;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    background-color: #207398;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.bio {
+    width: 50%;
+    margin: 0 0.5rem 0 0;
+    background-color: #12B0E8;
+    border-radius: 8px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #10a7edfe;
+    border: 2px solid #2072988f;
+    border-radius: 12px;
+    margin: 6px 0;
+    padding: 0 8px;
+}
+
+.detail span {
+    margin-left: 8px;
+}
+
+.talent {
+    width: 50%;
+    background-color: #12B0E8;
+    border-radius: 8px;
+    padding: 0 0.8rem;
+}
+
+@media (max-width: 40rem) {
+    .playerdetails {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .information {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bio {
+        width: 100%;
+        margin: 0 0 0.5rem 0;
+    }
+
+    .talent {
+        width: 100%;
+    }
+}
